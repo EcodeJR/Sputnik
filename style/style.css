@@ -835,7 +835,7 @@ nav label {
 /*footer section*/
 
 footer {
-    height: 40vh;
+    height: auto;
     width: 100%;
     background-color: var(--btnHoverBg);
     display: flex;
@@ -850,15 +850,28 @@ footer .footer-join {
     font-weight: var(--fontBold);
     font-size: 15px;
     padding: 10px 25px;
-    margin-top: 50px;
+    margin-top: 20px;
     text-transform: uppercase;
     border-radius: 5px;
     outline: none;
     cursor: pointer;
 }
 
+.ph,
+.em,
+.ad {
+    font-size: 15px;
+    color: #7f7f7f;
+    padding: 5px 0;
+}
+
+.ph:hover,
+.em:hover {
+    color: #fff;
+}
+
 footer hr {
-    width: 80%;
+    width: 50%;
     height: 2px;
     border: none;
     background-color: #fff;
@@ -871,14 +884,14 @@ footer .footer-join:hover {
 
 .footer-links {
     display: flex;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .footer-links a,
 .footer-links a {
     color: #7f7f7f;
     font-size: 14px;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .footer-links a:hover,
