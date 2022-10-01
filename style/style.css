@@ -380,7 +380,7 @@ nav label {
 
 @media only screen and (max-width:768px) {
     .services {
-        flex-direction: column;
+        flex-direction: column-reverse;
         height: auto;
     }
     .ser-text {
